@@ -1,21 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-# Display "Tahir" in green with glowing effect and support text
+# Display " Tahir " in green ASCII art at the top
 echo -e "\e[32m"  # Set green color
-echo "   _____       _          "
-echo "  |  __ \     (_)         "
-echo "  | |__) |__ _ _ _ __   __ _ "
-echo "  |  _  // _\` | | '_ \ / __|"
-echo "  | | \ \ (_| | | | | | (__ "
-echo "  |_|  \_\__,_|_|_| |_|___|"
-echo -e "\e[0m"  # Reset color
-echo -e "\e[32m"  # Set green color again for glow
-for i in {1..3}; do
-    echo -e "\e[1mTahir\e[0m"  # Bold for glow effect
-    sleep 0.3
-    echo -e "\e[2mTahir\e[0m"  # Dim for glow effect
-    sleep 0.3
-done
+echo "   _____        _     _     "
+echo "  |_   _|      | |   | |    "
+echo "    | | _ __ __| | __| |___ "
+echo "    | | | '__/ _\` |/ _\` / __|"
+echo "   _| |_| | | (_| | (_| \__ \\"
+echo "  |_____|_|  \__,_|\__,_|___/"
 echo -e "\e[0m"  # Reset color
 echo -e "\e[33mSupport Me\nIG: @f.r.e.e.c_ YT: @v5rn\e[0m"  # Smaller yellow text for support
 sleep 2  # Pause to show the text
