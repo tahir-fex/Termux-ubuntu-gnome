@@ -1,12 +1,13 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-# Display " Tahir " in green ASCII art at the top
+# Display ASCII art in green
 echo -e "\e[32m"  # Set green color
-echo "  _____         _     _     "
-echo " |_   _|__  ___| |__ (_)_ __ "
-echo "   | |/ _ \/ __| '_ \| | '__|"
-echo "   | |  __/ (__| | | | | |   "
-echo "   |_|\___|\___|_| |_|_|_|   "
+echo " ________________    ___ ___ ._____________ "
+echo "\__    ___/  _  \  /   |   \|   \______   \\"
+echo "  |    | /  /_\  \/    ~    \   ||       _/"
+echo "  |    |/    |    \    Y    /   ||    |   \\"
+echo "  |____|\____|__  /\___|_  /|___||____|_  /"
+echo "                \/       \/             \/ "
 echo -e "\e[0m"  # Reset color
 echo -e "\e[33mSupport Me\nIG: @f.r.e.e.c_ YT: @v5rn\e[0m"  # Smaller yellow text for support
 sleep 2  # Pause to show the text
