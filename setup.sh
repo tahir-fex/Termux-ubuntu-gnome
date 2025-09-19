@@ -2,12 +2,11 @@
 
 # Display " Tahir " in green ASCII art at the top
 echo -e "\e[32m"  # Set green color
-echo "   _____        _     _     "
-echo "  |_   _|      | |   | |    "
-echo "    | | _ __ __| | __| |___ "
-echo "    | | | '__/ _\` |/ _\` / __|"
-echo "   _| |_| | | (_| | (_| \__ \\"
-echo "  |_____|_|  \__,_|\__,_|___/"
+echo "  _____         _     _     "
+echo " |_   _|__  ___| |__ (_)_ __ "
+echo "   | |/ _ \/ __| '_ \| | '__|"
+echo "   | |  __/ (__| | | | | |   "
+echo "   |_|\___|\___|_| |_|_|_|   "
 echo -e "\e[0m"  # Reset color
 echo -e "\e[33mSupport Me\nIG: @f.r.e.e.c_ YT: @v5rn\e[0m"  # Smaller yellow text for support
 sleep 2  # Pause to show the text
